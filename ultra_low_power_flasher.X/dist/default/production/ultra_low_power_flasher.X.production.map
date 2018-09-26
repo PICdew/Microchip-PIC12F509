@@ -1,0 +1,38 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Sep 26 00:39:05 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00001a
+                   .cinit    romdata   0x00000d    program   0x000004
+.config_0FFF_BUILD/DEFAULT/PRODUCTION/CODE_BE       code   0x000fff    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000e      
+                            0x000fff    0x000fff      
+            16 out of 1029 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            configuracion   0x000001    program     static C:\Users\klnla\MPLABXProjects\ultra_low_power_flasher.X\code_beta.asm
+                encendido   0x000009    program     static C:\Users\klnla\MPLABXProjects\ultra_low_power_flasher.X\code_beta.asm
+                   inicio   0x000003    program     static C:\Users\klnla\MPLABXProjects\ultra_low_power_flasher.X\code_beta.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            configuracion   0x000001    program     static C:\Users\klnla\MPLABXProjects\ultra_low_power_flasher.X\code_beta.asm
+                   inicio   0x000003    program     static C:\Users\klnla\MPLABXProjects\ultra_low_power_flasher.X\code_beta.asm
+                encendido   0x000009    program     static C:\Users\klnla\MPLABXProjects\ultra_low_power_flasher.X\code_beta.asm
+
+
